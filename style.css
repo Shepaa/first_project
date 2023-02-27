@@ -5,7 +5,13 @@ a {
 a:hover{
     color: aqua;
 }
+a:active{
+    color: red;
+}
 body{
     background-color: darkolivegreen;
+}
+.table{
     text-align: center;
 }
+
