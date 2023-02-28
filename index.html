@@ -6,40 +6,42 @@
     <title>The first project on GitHub</title>
 </head>
 <body>
-<a href="gallery.html">Gallery</a>
+
+<h1>Git command</h1>
 <div class="table">
-    <table cellpadding="2" cellspacing="2" width="500" border="1">
-        <thead>Git command</thead>
+    <table >
         <tbody>
         <tr>
             <td>git add</td>
-            <td>Команда git add добавляет содержимое рабочего каталога в индекс (staging area) для последующего коммита.
-                По умолчанию git commit использует лишь этот индекс, так что вы можете использовать git add для сборки
-                слепка вашего следующего коммита.
+            <td>The git add command adds the contents of the working directory to the index (staging area) for later
+                commit. By default, git commit only uses this index, so you can use git add to build a snapshot of your
+                next commit.
             </td>
         </tr>
         <tr>
             <td>git status</td>
-            <td>Команда git status показывает состояния файлов в рабочем каталоге и индексе: какие файлы изменены, но не
-                добавлены в индекс; какие ожидают коммита в индексе. Вдобавок к этому выводятся подсказки о том, как
-                изменить состояние файлов.
+            <td>The git status command shows the status of files in the working directory and index: which files have
+                changed, but not
+                added to the index; which are pending commit in the index. In addition, hints are displayed on how to
+                change the state of the files.
             </td>
         </tr>
         <tr>
             <td>git commit</td>
-            <td>Команда git commit берёт все данные, добавленные в индекс с помощью git add, и сохраняет их слепок во
-                внутренней базе данных, а затем сдвигает указатель текущей ветки на этот слепок.
+            <td>The git commit command takes all the data added to the index with git add and saves a snapshot of it in
+                internal database, and then shifts the current branch pointer to that snapshot.
             </td>
         </tr>
         <tr>
             <td>git log</td>
-            <td> После того как вы создадите несколько коммитов, или же вы склонируете репозиторий с уже существующей
-                историей коммитов, вы, вероятно, захотите оглянуться назад и узнать, что же происходило с этим
-                репозиторием. Наиболее простой и в то же время мощный инструмент для этого — команда git log.
+            <td> After you create a few commits, or you clone a repository from an existing
+                commit history, you'll probably want to look back and see what happened to that
+                repository. The simplest yet most powerful tool for this is the git log command.
             </td>
         </tr>
         </tbody>
     </table>
+    <h1><a href="gallery.html">Gallery</a></h1>
 </div>
 </body>
 </html>

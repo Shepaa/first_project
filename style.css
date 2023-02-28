@@ -1,17 +1,29 @@
 a {
     text-decoration: none;
-    color: darkorange;
+    color: black;
 }
-a:hover{
+
+a:hover {
     color: aqua;
 }
-a:active{
+
+a:active {
     color: red;
 }
-body{
+
+body {
     background-color: darkolivegreen;
 }
-.table{
+
+table {
+    width: 50%;
+    margin: auto;
+    border: 1px solid #6c1942;
+    box-shadow: 10px 10px 10px 10px #888888;
+    border-radius: 25px;
+}
+
+h1 {
     text-align: center;
 }
 
